@@ -1,1 +1,1 @@
-# energy_management_system
+# Energy Management System - Front
