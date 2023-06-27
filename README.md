@@ -24,6 +24,8 @@ _Those were created with Figma_
 
 <- maybe you should do a gallery instead of one image
 
+<- You have to add to the wireframes "sync" in the navigation for data collection
+
 **Desktop**
 
 ![](wireframes/desktop/EMS_desktop.png)
@@ -34,6 +36,8 @@ _Those were created with Figma_
 
 - one big image showing the dashboard
 - a gallery below of the other pages
+
+<- You have to add to the wireframes "sync" in the navigation for data collection
 
 ### Features
 
