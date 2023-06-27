@@ -2,25 +2,38 @@
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-This is the 1.0 version.
+You are in Version 1.0.
 
 ## Overall description
 
 This project is an energy management system for businesses. This system will enable users to monitor, manage and optimize their energy consumption.
 
-## 1.0. version
+## Version 1.0
 
-The version 1.0 aims to enable users to create an account, view a basic dashboard and import record data.
+Version 1.0 aims to enable users to create an account, view a basic dashboard, collect data and import record data.
 
 ### Wireframes
+
+_Those were created with Figma_
 
 **Mobile**
 
 ![](wireframes/mobile/EMS_mobile.png)
 
+<- here you should put a link to the containing folder
+
+<- maybe you should do a gallery instead of one image
+
 **Desktop**
 
 ![](wireframes/desktop/EMS_desktop.png)
+
+<- here you should put a link to the containing folder
+
+<- maybe you should do a gallery instead of one image like following:
+
+- one big image showing the dashboard
+- a gallery below of the other pages
 
 ### Features
 
@@ -56,6 +69,19 @@ The version 1.0 aims to enable users to create an account, view a basic dashboar
 - PostgreSQL
 
 A REST API is used to manage interaction between the frontend and backend.
+
+## Front Structure
+
+- Pages:
+
+  - Landing page with login
+  - Dashboard
+  - Signup page
+
+- Routing:
+  - /
+  - /signup/
+  - /dashboard/
 
 ## Install
 
@@ -96,9 +122,14 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
+## Useful resources
+
+- [Github README image gallery](https://felixhayashi.github.io/ReadmeGalleryCreatorForGitHub/): interesting for good looking README files.
+
 ## Skills mobilized
 
 **Front design**
 
 - sketch a wireframe on paper, with optimizing User experience
+- create wireframes with Figma
 - draw inspiration from the competition (small competitive intelligence: EDF dashboard equilibre.edf.fr)
