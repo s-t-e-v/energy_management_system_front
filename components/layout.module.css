@@ -1,0 +1,12 @@
+ .title {
+   font-size: 64px;
+ }
+ 
+ .subtitle {
+    text-transform: none;
+    font-weight: normal;
+ }
+
+ .header {
+    background-color: rgb(202, 202, 202);
+ }

@@ -97,6 +97,12 @@ A REST API is used to manage interaction between the frontend and backend.
 yarn add react-bootstrap bootstrap
 ```
 
+**Bootswatch**
+
+```bash
+yarn add bootswatch
+```
+
 ## Getting Started
 
 First, run the development server:

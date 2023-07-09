@@ -1,26 +1,31 @@
-import { Form, Button} from "react-bootstrap";
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
+
 import Link from "next/link";
 
 interface Props {}
 
 const LoginForm: React.FC<Props> = () => {
     return (
-        <div>
+        <div className='mt-5 mx-5 mx-sm-0 '>
 
-            <form action="/dashboard" method="post">
-                <div>
-                    <label htmlFor="login">Email Address</label>
-                    <input type="text" name="login" id="login" placeholder='Email adress or Username'/>
-                </div>
-                <div>
-                    <label htmlFor="pswd">Password</label>
-                    <input type="password" name="pswd" id="pswd" />
-                </div>
+            <h2 className='mb-4'>Log In</h2>
 
-                <button type="submit">Log In</button>
-            </form>
+            <Form>
+                <Form.Group className='mb-3' controlId='Email'>
+                    <Form.Label>Email address</Form.Label>
+                    <Form.Control type='email' placeholder='Placeholder'/>
+                </Form.Group>
+                <Form.Group className='mb-3' controlId='Password'>
+                    <Form.Label>Password</Form.Label>
+                    <Form.Control type='password' placeholder='Placeholder'/>
+                </Form.Group>
+                <Button variant='primary' type='submit'>
+                    Log In
+                </Button>
+            </Form>
 
-            <hr />
+            <hr className='my-4'/>
 
             <p>No account yet? <Link href="/signup">Sign up</Link></p>
 

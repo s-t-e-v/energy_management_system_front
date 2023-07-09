@@ -1,6 +1,8 @@
 import { Container } from "react-bootstrap";
 import Link from "next/link";
 
+import styles from './layout.module.css';
+
 interface Props {
     children: React.ReactNode;
     home?: boolean;
@@ -9,12 +11,12 @@ interface Props {
 const Layout: React.FC<Props> = ({ children, home}) => {
     return (
         <div>
-            <header>
+            <header className={styles.header}>
                 {home ? (
-                    <>
-                        <h1>EMS</h1>
-                        <h3>Manage your energy consumption</h3>
-                    </>
+                    <div className="pt-5 pb-3">
+                        <h1 className={`${styles.title} text-center`}>EMS</h1>
+                        <h3 className={`${styles.subtitle} text-center mx-5`}>Manage your energy consumption</h3>
+                    </div>
                 ) : (
                     <>
                         <div>
