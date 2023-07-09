@@ -3,10 +3,15 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Link from 'next/link'
+import Layout from '@/components/Layout'
+import LoginForm from '@/components/LoginForm'
+import React from 'react'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+interface Props {}
+
+const Home: React.FC<Props> = () => {
   return (
     <>
       <Head>
@@ -15,37 +20,12 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header>
-        <h1>EMS</h1>
-        <p>Manage your energy consumption</p>
-      </header>
-      <main className={styles.main}>
 
-        <h2>Log In</h2>
-
-        <form action="" method="post">
-          <div>
-            <label htmlFor="login">Email Address</label>
-            <input type="text" name="login" id="login" placeholder='Email adress or Username'/>
-          </div>
-          <div>
-            <label htmlFor="pswd">Password</label>
-            <input type="password" name="pswd" id="pswd" />
-          </div>
-
-          <button type="submit">Log In</button>
-        </form>
-
-        <hr />
-
-        <p>No account yet? <Link href="/signup">Sign up</Link></p>
-
-     
-      </main>
-
-      <footer>
-        <p>&copy; 2023 Energy Management System</p>
-      </footer>
+      <Layout home>
+        <LoginForm />
+      </Layout>
     </>
   )
 }
+
+export default Home;

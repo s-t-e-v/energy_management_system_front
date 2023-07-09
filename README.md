@@ -89,6 +89,14 @@ A REST API is used to manage interaction between the frontend and backend.
 
 ## Install
 
+### Dependencies
+
+**react bootstrap**
+
+```bash
+yarn add react-bootstrap bootstrap
+```
+
 ## Getting Started
 
 First, run the development server:
