@@ -10,7 +10,7 @@ interface Props {
 
 const Layout: React.FC<Props> = ({ children, home}) => {
     return (
-        <div>
+        <div className={styles.wrapper}>
             <header className={styles.header}>
                 {home ? (
                     <div className="pt-5 pb-3">
@@ -53,15 +53,15 @@ const Layout: React.FC<Props> = ({ children, home}) => {
                 )}            
             </header>
 
-            <main>
-                <Container>
+            <main className={`${styles.main} d-flex align-items-sm-center`}>
+                <Container className={styles.main_container}>
                     {children}
                 </Container>
             </main>
 
-            <footer>
+            <footer className={styles.footer}>
                 <Container>
-                    <p>&copy; {new Date().getFullYear()} Energy Management System. All rights reserved.</p>
+                    <p className="text-center p-4">&copy; {new Date().getFullYear()} Energy Management System. All rights reserved.</p>
                 </Container>
             </footer>
         </div>

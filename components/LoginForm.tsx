@@ -3,11 +3,13 @@ import Form from 'react-bootstrap/Form';
 
 import Link from "next/link";
 
+import styles from "../styles/Home.module.css"
+
 interface Props {}
 
 const LoginForm: React.FC<Props> = () => {
     return (
-        <div className='mt-5 mx-5 mx-sm-0 '>
+        <div className={`${styles.main_content} mt-5 mx-5 mx-sm-0`}>
 
             <h2 className='mb-4'>Log In</h2>
 
