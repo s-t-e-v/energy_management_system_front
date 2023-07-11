@@ -1,0 +1,32 @@
+.wrapper {
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh; /* Set a minimum height to ensure footer placement*/
+}
+
+.main {
+   flex-grow: 1; /* Allow main area to grow and fill available space*/
+}
+
+.main_container {
+   height: 100%; /* Set the main content height to 100%*/
+   display: flex;
+   justify-content: center;
+}
+.title {
+   font-size: 64px;
+ }
+ 
+ .subtitle {
+    text-transform: none;
+    font-weight: normal;
+ }
+
+ .header {
+    background-color: rgb(202, 202, 202);
+ }
+
+ .footer {
+   background-color: rgb(61, 61, 61);
+   color: white;
+ }
