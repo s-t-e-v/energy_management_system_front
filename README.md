@@ -110,6 +110,67 @@ A REST API is used to manage interaction between the frontend and backend.
 
 ## Install
 
+### From scratch
+
+**1. NextJs / Ts setups**
+
+1. Install Node.js: Ensure that you have Node.js installed on your machine (In the terminal, type `node -v`). You can download it from the official website (https://nodejs.org) and follow the installation instructions.
+2. Initialize a new Next.js project: Open your terminal and navigate to the parent directory where you want to create your project. Then run the following command to create a new Next.js app:
+
+   ```bash
+   npx create-next-app energy_management_system_front --typescript
+   ```
+
+   **Note**: If you are prompted with messages similar to the following: `What import alias would you like configured? › @/*`, I would recommend to accept. `@/*` is already pre-filled, so you just have to type `Enter` to proceed.
+
+The app is now setup with Next.js with TypeScript. If you want to activate version control, just navigate to newly created directory and run `git int`.
+
+**2. Yarn**
+
+If you want to use yarn as package manager, run the command below:
+
+```bash
+yarn install
+```
+
+**3. Bootstrap**
+
+1. Install Bootstrap and its dependencies by running the following command:
+   ```bash
+   yarn add react-bootstrap bootstrap
+   ```
+   You can use npm also with the adequate command line.
+2. Open the `_app.tsx` file located in the `pages` directory. Add this within the import area, at the beginning of the file:
+
+   `_app.tsx`:
+
+   ```tsx
+   // ... other imports
+   import "bootstrap/dist/css/bootstrap.min.css";
+
+   // ... rest of the file
+   ```
+
+**4. Bootswatch**
+
+1. Install Bootswatch by running the following command:
+   ```bash
+   yarn add bootswatch
+   ```
+   You can use npm also with the adequate command line.
+2. Open the `_app.tsx` file located in the `pages` directory. Add this within the import area, at the beginning of the file:
+
+   `_app.tsx`:
+
+   ```tsx
+   // ... other imports
+   import "bootswatch/dist/lux/bootstrap.min.css";
+
+   // ... rest of the file
+   ```
+
+   **Note**: "`lux`" in the import path corresponds to the [Lux Bootswatch theme](https://bootswatch.com/lux/). If you want to use a different theme, just replace this theme name with your own.
+
 ### Dependencies
 
 **react bootstrap**
