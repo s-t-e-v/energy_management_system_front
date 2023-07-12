@@ -90,7 +90,6 @@ A REST API is used to manage interaction between the frontend and backend.
 ## Development planning
 
 **Front**
-
 ![](https://geps.dev/progress/50)
 
 - [x] 1. Nextjs minimal setup
@@ -100,13 +99,13 @@ A REST API is used to manage interaction between the frontend and backend.
 - [x] 5. Bootswatch integration
 - [x] 6. Landing page bootstrap refactoring
 - [x] 7. Signup page bootstrap refactoring
-- [] 8. Bootstrap navbar integration
-- [] 9. Dashboard bootsrap refactoring
-- [] 10. Dummy energy database integration + energy table display
-- [] 11. Average consumption display with dummy db
-- [] 12. Highest consumption display with dummy db
-- [] 13. Import feature: collect & prepare the data for a post request
-- [] 14. Connect the front to the API endpoints
+- [ ] 8. Bootstrap navbar integration
+- [ ] 9. Dashboard bootsrap refactoring
+- [ ] 10. Dummy energy database integration + energy table display
+- [ ] 11. Average consumption display with dummy db
+- [ ] 12. Highest consumption display with dummy db
+- [ ] 13. Import feature: collect & prepare the data for a post request
+- [ ] 14. Connect the front to the API endpoints
 
 ## Install
 
