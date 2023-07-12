@@ -100,6 +100,7 @@ A REST API is used to manage interaction between the frontend and backend.
 - [x] 6. Landing page bootstrap refactoring
 - [x] 7. Signup page bootstrap refactoring
 - [ ] 8. Bootstrap navbar integration
+  - [ ] Landing page: turn EMS into a clickable brand name redirecting to the home page
 - [ ] 9. Dashboard bootsrap refactoring
 - [ ] 10. Dummy energy database integration + energy table display
 - [ ] 11. Average consumption display with dummy db
