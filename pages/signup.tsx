@@ -3,6 +3,10 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Link from 'next/link'
 
+import Layout from '@/components/Layout'
+import LoginForm from '@/components/SignupForm'
+import SignupForm from '@/components/SignupForm'
+
 export default function Signup() {
     return (
         <>
@@ -12,49 +16,10 @@ export default function Signup() {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <header>
-                <h1>EMS</h1>
-                <p>Manage your energy consumption</p>
-            </header>
-            <main className={styles.main}>
-                <h2>Sign Up</h2>
 
-                <form action="" method="post">
-                    <div>
-                        <label htmlFor="firstname">First Name</label>
-                        <input type="text" name="firstname" id="firstname" />
-                    </div>
-                    <div>
-                        <label htmlFor="lastname">Last Name</label>
-                        <input type="text" name="lastname" id="lastname" />
-                    </div>
-                    <div>
-                        <label htmlFor="username">Username</label>
-                        <input type="text" name="username" id="username" />
-                    </div>
-                    <div>
-                        <label htmlFor="email">Email</label>
-                        <input type="email" name="email" id="email" />
-                    </div>
-                    <div>
-                        <label htmlFor="pswd">Password</label>
-                        <input type="password" name="pswd" id="pswd" />
-                        <small>It must be a combination of minimum 8 letters, numbers, and symbols.</small>
-                    </div>
-
-                    <button type="submit">Sign Up</button>
-                    </form>
-
-                    <hr />
-
-                    <p><Link href="/">Already have an account?</Link></p>
-
-                
-            </main>
-            <footer>
-                <p>&copy; 2023 Energy Management System</p>
-            </footer>
-
+            <Layout home>
+                <SignupForm />
+            </Layout>
         </>
     )
 }
