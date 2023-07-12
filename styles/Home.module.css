@@ -1,4 +1,6 @@
 .main_content {
   max-width: 560px;
   width: 100%;
+  margin-top: 5rem; 
+  margin-bottom: 5rem; 
 }
