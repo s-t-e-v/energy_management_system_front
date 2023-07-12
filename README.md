@@ -142,7 +142,7 @@ yarn install
    You can use npm also with the adequate command line.
 2. Open the `_app.tsx` file located in the `pages` directory. Add this within the import area, at the beginning of the file:
 
-   `_app.tsx`:
+   _\_app.tsx_:
 
    ```tsx
    // ... other imports
@@ -160,7 +160,7 @@ yarn install
    You can use npm also with the adequate command line.
 2. Open the `_app.tsx` file located in the `pages` directory. Add this within the import area, at the beginning of the file:
 
-   `_app.tsx`:
+   _\_app.tsx_:
 
    ```tsx
    // ... other imports
@@ -169,7 +169,7 @@ yarn install
    // ... rest of the file
    ```
 
-   **Note**: "`lux`" in the import path corresponds to the [Lux Bootswatch theme](https://bootswatch.com/lux/). If you want to use a different theme, just replace this theme name with your own.
+   **Note**: '_lux_' in the import path corresponds to the [Lux Bootswatch theme](https://bootswatch.com/lux/). If you want to use a different theme, just replace this theme name with your own.
 
 ### Dependencies
 
