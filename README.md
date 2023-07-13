@@ -73,7 +73,7 @@ _Those were created with Figma_
 - [ ] 11. Average consumption display with dummy db
 - [ ] 12. Highest consumption display with dummy db
 - [ ] 13. Import feature: collect & prepare the data for a post request
-- [ ] 14. Connect the front to the backend API endpoints
+- [ ] 14. Connect the front to the backend API
 
 ## Stack
 
